@@ -1,0 +1,225 @@
+*{
+  margin:0px;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav {
+  height:80px;
+  width:100%;
+  opacity: 1;
+  background-color:rgb( 248, 249, 250);
+}
+.navcontainer {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  position:relative;
+  top:20px;
+  margin: 0px 80px;
+}
+button {
+  width:90px;
+  height:40px;
+  border-radius: 6px;
+  background-color: #0d6efd;
+  border: none;
+}
+header {
+  content: "";
+    position: absolute;
+    /* background-color: #1c375e; */
+    height:640px;
+    width: 100%;
+    left: 0;
+    opacity: 0.5;
+    background: url('https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg') no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.heading {
+  color: white;
+  font-size: 3rem;
+  position: absolute;
+  top:30%;
+  left:30%;
+}
+.inputContainer {
+  position: absolute;
+  top:50%;
+  left:30%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section{
+  /* background-color:white; */
+  position: relative;
+  top: 40em;
+  height:100vh;
+  width:100%;
+}
+.gridcard{
+  background-color:white;
+  height:50vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+
+}
+.card1{
+  background-color:white;
+  width: 30%;
+  height: 100%;
+  position:relative;
+  left:50px;
+}
+.icon{
+   /* margin-left: 43%; */
+   top: 75px;
+   /* margin-top: 1px; */
+   left: 40%;
+   position: relative;
+   color: blue;
+}
+.sectionContainer{
+  background-color: red;
+
+  height:100vh;
+  width:100%;
+}
+.subsection,.subsection1,.subsection6{
+  display:flex;
+  align-items: center;
+}
+.subsection2{
+    background-color:white;
+    width:50%;
+    height:50vh;
+}
+.subsection3{
+      background-color:white;
+      width:50%;
+      height:50vh;
+      background-image:url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg");
+}
+.subsection4{
+  background-color:white;
+  width:50%;
+  height:50vh;
+  background-image:url(" https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg");
+
+}
+.subsection5{
+  background-color:white;
+  width:50%;
+  height:50vh;
+}
+.subsection7{
+  background-color:white;
+  width:50%;
+  height:50vh;
+}
+.subsection8{
+  background-color:white;
+  width:50%;
+  height:50vh;
+  background-image:url(" https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg");
+  /* min-height: 30rem; */
+    background-size: cover;
+
+}
+
+h1{
+  font-size: calc(1.325rem + 0.9vw);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  position: relative;
+  text-align: center;
+  top: 27%;
+}
+p{
+  font-size: 1.25rem;
+  font-weight: 100;
+  position: relative;
+  text-align: center;
+  top: 95px;
+}
+.section {
+  background-color:white;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  top: 85rem;
+}
+.circle-images-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Image-container{
+  height: 365px;
+    width: 400px;
+    background-color:white;
+  
+}
+.circular-image {
+  height: 206px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  position: relative;
+  top: 29px;
+  left: 20%;
+}
+.imageh1{
+  position: relative;
+  top:27px;
+  left: 130px;
+}
+.imagep{
+  position: relative;
+    top: 40px;
+}
+ .Logincontainer{
+  /* background-color: red; */
+  height:25vh;
+  width: 100%;
+  position: relative;
+  top: 85rem;
+  background: url('https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg') no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+ }
+ .inputcontainer1{
+  top: 50px;
+    position: relative;
+    left: 33%;
+ }
+ footer{
+  background-color:white;
+  position: relative;
+  top: 85rem;
+  height: 25vh;
+ }
+ ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  position: absolute;
+  top: 60px;
+ }
+ img {
+  height:60px;
+ }
+ .imgul{
+  left:70%;
+  top:40px;
+
+ }
